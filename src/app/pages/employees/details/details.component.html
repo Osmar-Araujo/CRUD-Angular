@@ -1,0 +1,24 @@
+<div class="card mt-2">
+  <div class="card-header">
+    Dados do Funcionário
+  </div>
+<div class="card-body">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      Nome: <h5>{{employee.name}} {{employee.lastName}}</h5>
+    </li>
+    <li class="list-group-item">
+      Email: <h5>{{employee.email}}</h5>
+    </li>
+    <li class="list-group-item">
+      Data Início: <h5>{{employee.startDate}}</h5>
+    </li>
+  </ul>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-warning m-1" (click)="onGoToEdit()">Editar</button>
+    <button type="button" class="btn btn-danger m-1" (click)="onGoToDelete()">Deletar</button>
+  </div>
+</div>
+</div>
+<button type="button" class="btn btn-secondary mt-2" (click)="onGoBackToList()">Voltar para a lista de funcionários</button>
+

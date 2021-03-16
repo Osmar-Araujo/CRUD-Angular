@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "crud-angular-671b2": {
+      "hosting": {
+        "crud": [
+          "crud-angular-671b2"
+        ]
+      }
+    }
+  }
+}
